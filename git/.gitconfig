@@ -1,0 +1,16 @@
+[alias]
+	tr = log --graph --all --oneline --decorate
+	ftap = fetch --all --prune
+	co = checkout
+[user]
+	email = 49365680+Turtyo@users.noreply.github.com
+	name = Turtyo
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[rerere]
+	enabled = true
+	autoupdate = true
+[maintenance]
+	repo = /home/turtyo/files/informatic/saplings_projects/1_million_sub/1M_sub
