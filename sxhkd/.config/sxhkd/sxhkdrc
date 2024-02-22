@@ -127,19 +127,19 @@ super + shift + {Left,Down,Up,Right}
 
 # sound down : small
 XF86AudioLowerVolume
-	amixer set Master 5%-
+	wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%-
 
 # sound down : big
 shift + XF86AudioLowerVolume
-         amixer set Master 10%-
+        wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 10%-
 
 # sound up : small
 XF86AudioRaiseVolume
-	amixer set Master 5%+
+	wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+
 
 #sound up : big
 shift + XF86AudioRaiseVolume
-	amixer set Master 10%+
+	wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 10%+
 
 # brightness down : small
 XF86MonBrightnessDown
