@@ -1,7 +1,7 @@
 # Requirements
 
-pacman -S stow
+`pacman -S stow`
 
 ## Usage
 
-stow .
+`stow .`
