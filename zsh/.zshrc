@@ -133,13 +133,6 @@ alias feh="feh -r --image-bg black -Z -."
 alias name="$FUNC/zsh/name.sh"
 alias 2mkv="$FUNC/video/convert_to_mkv.sh"
 
-# Grit alias
-alias g="grit"
-alias gap="grit add -p"
-alias gmv="$FUNC/grit/gmv.sh"
-alias gt="grit tree"
-alias gc="grit check"
-
 # Taskell alias
 alias t="taskell"
 
