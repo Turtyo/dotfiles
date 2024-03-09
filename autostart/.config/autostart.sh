@@ -3,7 +3,7 @@
 setxkbmap fr &
 nitrogen --restore &
 xsetroot -cursor_name left_ptr
-picom -experimental-backends --animations &
+picom -f --experimental-backends --animations &
 unclutter &
 firefox &
 fcitx5 &
