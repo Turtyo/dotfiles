@@ -113,6 +113,9 @@ source $ZSH/oh-my-zsh.sh
 
 alias ls='lsd'
 alias ll='ls -al'
+alias lt='ls --tree'
+alias ld='lt --depth'
+alias cat='bat'
 alias wifi='nmtui'
 # use nm-connection-editor to change wifi settings
 alias vol='/home/turtyo/files/informatic/.volatility2/volatility_2.6_lin64_standalone/volatility_2.6_lin64_standalone'
