@@ -163,7 +163,7 @@ super + {_,shift} + s
 
 # screenshot entire screen
 Print
-	gscreenshot -f ~/Pictures/screenshots
+	gscreenshot -c
 
 # search on jisho.org the meaning of given clipboard selection (for japanese study)
 super + exclam
