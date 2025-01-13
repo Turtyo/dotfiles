@@ -8,9 +8,11 @@ export FUNC="$HOME/.config/functions"
 export VID="$HOME/files/videos/youtube/not_watched/"
 export AUD="$HOME/files/audio/unpaid/youtube/not_watched"
 
-export PYENV_ROOT="$HOME/.pyenv" >> ~/.zshrc
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH" >> ~/.zshrc
-eval "$(pyenv init -)" >> ~/.zshrc
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+#export pyenv_root="$home/.pyenv" >> ~/.zshrc
+#command -v pyenv >/dev/null || export path="$pyenv_root/bin:$path" >> ~/.zshrc
+#eval "$(pyenv init -)" >> ~/.zshrc
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
