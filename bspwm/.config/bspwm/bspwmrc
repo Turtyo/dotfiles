@@ -2,7 +2,12 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX
+if [ $(xrandr | grep "HDMI-0" | wc -l) -ge 1 ]; then
+	bspc monitor eDP-1-1 -d I II III IV V VI VII
+	bspc monitor HDMI-O -d VIII IX
+else
+	bspc monitor eDP-1 -d I II III IV V VI VII VIII IX
+fi
 
 bspc config top_padding		 24
 bspc config border_width         0
