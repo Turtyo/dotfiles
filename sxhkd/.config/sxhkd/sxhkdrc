@@ -167,7 +167,7 @@ Print
 
 # search on jisho.org the meaning of given clipboard selection (for japanese study)
 super + exclam
-	firefox --new-window "https://jisho.org/search/$(xclip -o)"; \
+	librewolf --new-window "https://jisho.org/search/$(xclip -o)"; \
 	bspc desktop -l next
 
 # prints the list of paired bluetooth devices, asking for prompt and attempting to connect to chosen device

@@ -137,6 +137,7 @@ alias mvrm="$FUNC/zsh/mvrm.sh"
 alias feh="feh -r --image-bg black -Z -."
 alias name="$FUNC/zsh/name.sh"
 alias 2mkv="$FUNC/video/convert_to_mkv.sh"
+alias wo="librewolf"
 
 # Taskell alias
 alias t="taskell"
