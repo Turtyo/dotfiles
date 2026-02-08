@@ -138,17 +138,10 @@ alias feh="feh -r --image-bg black -Z -."
 alias name="$FUNC/zsh/name.sh"
 alias 2mkv="$FUNC/video/convert_to_mkv.sh"
 alias wo="librewolf"
-
+alias wavToFlac="/home/turtyo/files/informatic/ffmpeg_recursive_flac/target/release/ffmpeg_recursive_flac"
+alias vim="nvim"
 # Taskell alias
 alias t="taskell"
 
 eval "$(zoxide init --cmd cd zsh)"
 
-
-# BEGIN opam configuration
-# This is useful if you're using opam as it adds:
-#   - the correct directories to the PATH
-#   - auto-completion for the opam binary
-# This section can be safely removed at any time if needed.
-[[ ! -r '/home/turtyo/.opam/opam-init/init.zsh' ]] || source '/home/turtyo/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
-# END opam configuration
